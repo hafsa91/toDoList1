@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="js/angular.min.js"></script>
+<script src="js/angulartest1.js"></script>
+</head>
+<body ng-app="myApp">
+<div ng-controller="ctrl">
+<img ng-bind="images" src="img/bunny.jpg">
+<button ng-click="check()" ng-hide="images">Hide</button>
+<button ng-click="check2()" ng-show="images">Show</button>
+</div>
+
+</body>
+</html>
